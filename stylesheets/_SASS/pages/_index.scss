@@ -1,0 +1,105 @@
+// NAVBAR
+
+#navBar {
+  width: 100%;
+  height: 80px;
+  // background-color: #A71680;
+}
+
+#logo {
+  // background-color: #FBBA00;
+  height: 80px;
+  width: 100px;
+  float: left;
+  background: url('/imgs/vapeLogo.png');
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 35px 0 35px;
+}
+
+#navi {
+  height: 100%;
+  // background-color: #E20713;
+}
+
+#navi input {
+  width: 200px;
+  height: 25px;
+  margin: 0 35px 0 35px;
+}
+
+#navi button {
+  margin-left: -20px;
+}
+
+#navi ul li {
+  // background-color: #E20713;
+  display: inline-block;
+  height: 100%;
+  float: left;
+  line-height: 80px;
+  width: auto;
+  margin: 0 35px 0 35px;
+  font-family: Roboto, sans-serif;
+}
+
+// SPLASH
+
+#splash {
+  width: 100%;
+  height: 600px;
+  background: url('/imgs/vapes.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+#sale {
+  height: 500px;
+  width: 500px;
+  background-color: #457CAC;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  font-size: 25px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 700px;
+}
+
+#sale p {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#saleButton {
+  height: 100px;
+  width: 350px;
+  background-color: #FFFFFF;
+  margin: 100px auto 0 auto;
+}
+
+#saleButton p {
+  color: #000000;
+  line-height: 100px;
+}
+
+// MOTO
+#smoke {
+  width: 100%;
+  height: 600px;
+  background: url('/imgs/vapesmoke.jpg');
+  background-repeat: no-repeat;
+  background-position: top, center;
+  font-family: Roboto, sans-serif;
+  display: inline-block;
+}
+
+#smoke p {
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
