@@ -48,16 +48,16 @@ table {
 
 #navBar {
   width: 100%;
-  height: 80px;
+  height: 100px;
   position: fixed;
   background-color: #FFFFFF; }
 
 #logo {
-  height: 80px;
-  width: 100px;
+  height: 100px;
+  width: 120px;
   float: left;
   background: url("/imgs/vapeLogo.png");
-  background-size: 80px 80px;
+  background-size: 120px 120px;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 35px 0 35px; }
@@ -67,24 +67,36 @@ table {
 
 #navi input {
   width: 200px;
-  height: 25px;
-  margin: 0 35px 0 35px; }
-
-#navi button {
-  margin-left: -20px; }
+  height: 25px; }
 
 #navi ul li {
   display: inline-block;
   height: 100%;
   float: left;
-  line-height: 80px;
+  line-height: 100px;
   width: auto;
-  margin: 0 35px 0 35px;
-  font-family: Roboto, sans-serif; }
+  margin: 0 25px 0 25px;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px; }
 
-li:hover {
+#navi li:hover {
   color: #457CAC;
   cursor: pointer; }
+
+#navi li:visited {
+  color: #000000; }
+
+a:hover {
+  color: #457CAC !important;
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  color: #000000; }
 
 #splash {
   width: 100%;
@@ -93,37 +105,40 @@ li:hover {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-top: 80px; }
+  margin-top: 100px; }
 
 #sale {
   height: 500px;
   width: 500px;
   background-color: #457CAC;
-  font-family: Roboto, sans-serif;
-  color: #FFFFFF;
-  font-size: 25px;
-  letter-spacing: 1px;
   display: inline-block;
   margin-top: 50px;
   margin-left: 700px; }
 
 #sale p {
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 100px;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 1px; }
 
 #saleButton {
   height: 100px;
   width: 350px;
   background-color: #FFFFFF;
-  margin: 100px auto 0 auto; }
+  margin: 10px auto 0 auto; }
 
-#saleButton:hover {
+#saleButton p:hover {
   cursor: pointer;
   color: #457CAC; }
 
 #saleButton p {
   color: #000000;
-  line-height: 100px; }
+  line-height: 100px;
+  font-size: 20px; }
 
 #smoke {
   width: 100%;
@@ -131,12 +146,141 @@ li:hover {
   background: url("/imgs/vapesmoke.jpg");
   background-repeat: no-repeat;
   background-position: top, center;
-  font-family: Roboto, sans-serif;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 500;
   display: inline-block; }
+
+#smoke h1 {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  font-size: 50px; }
 
 #smoke p {
   display: block;
   text-align: center;
-  margin-top: 70px;
-  font-size: 25px;
-  letter-spacing: 1px; }
+  margin-top: 50px;
+  letter-spacing: 1px;
+  font-size: 30px; }
+
+#weirdDiv {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 100px auto 0 auto; }
+
+#productsNav {
+  text-align: center;
+  background-color: #457CAC;
+  width: 1000px;
+  margin: auto;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 500;
+  color: #FFFFFF; }
+
+#productsNav h1 {
+  font-size: 35px; }
+
+#productTable {
+  margin: auto;
+  width: 100%; }
+
+#productTable td {
+  padding: 15px; }
+
+#productTable td:hover {
+  cursor: pointer; }
+
+#mainProd {
+  width: 95%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500; }
+
+#mainProd h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  display: block; }
+
+#ego {
+  display: block;
+  margin-top: 100px;
+  float: left;
+  font-size: 28px; }
+
+#ego:hover {
+  cursor: pointer; }
+
+#mvp {
+  display: block;
+  margin-top: 100px;
+  float: right;
+  font-size: 28px; }
+
+#mvp:hover {
+  cursor: pointer; }
+
+#kange {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  float: left;
+  font-size: 28px; }
+
+#kange:hover {
+  cursor: pointer; }
+
+#shark {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  float: right;
+  font-size: 28px; }
+
+#shark:hover {
+  cursor: pointer; }
+
+#arrow {
+  width: auto;
+  height: 50px;
+  background: url("/imgs/arrow.png");
+  background-repeat: no-repeat;
+  background-size: auto 50px;
+  display: block;
+  margin-left: 543.5px;
+  margin-top: 960px; }
+
+#arrow:hover {
+  cursor: pointer; }
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: #457CAC;
+  font-family: "futura-pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  display: inline-block; }
+
+#footer p {
+  margin-top: 10px;
+  display: inline-block; }
+
+#footer ul li {
+  display: inline-block;
+  margin: 20px 60px 0 60px; }
+
+#footer li:hover {
+  cursor: pointer; }
